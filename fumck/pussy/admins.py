@@ -45,7 +45,7 @@ async def member_permissions(chat_id: int, user_id: int):
     if member.can_manage_voice_chats:
         perms.append("can_manage_voice_chats")
     return perms
-from fumck.lumd.helpers.administrator import adminsOnly
+from fumck.lumd.helpers.admins import adminsOnly
 
 @app.on_message(filters.command("cleandb"))
 async def stop_cmd(_, message): 
