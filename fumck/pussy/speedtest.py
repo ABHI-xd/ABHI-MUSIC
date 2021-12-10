@@ -4,7 +4,7 @@ import wget
 from fumck.lumd.helpers.gets import bytes
 from fumck import app, SUDOERS, BOT_ID
 from pyrogram import filters, Client
-from fumck.lumd.database.onoff import (is_on_off, add_on, add_off)
+from fumck.lumd.DB.onoff import (is_on_off, add_on, add_off)
 from pyrogram.types import Message
 
 @app.on_message(filters.command("speedtest") & ~filters.edited)
