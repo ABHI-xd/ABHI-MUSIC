@@ -3,7 +3,7 @@ from functools import wraps
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 from pyrogram.types import Message
 from fumck import app, SUDOERS
-from fumck.Plugins.admins import member_permissions
+from fumck.pussy.admins import member_permissions
 
 
 async def authorised(message):
