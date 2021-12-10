@@ -1,0 +1,5 @@
+build:
+  docker:
+    worker: semx
+run:
+  worker: python3 -m fumck
