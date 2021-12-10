@@ -20,7 +20,7 @@ from os import path
 from fumck import BOT_USERNAME
 import asyncio
 import yt_dlp
-from fumck.converter import converter
+from fumck.hatersonlund import converter
 from pyrogram.types import Message
 from fumck.lumd.DB.theme import (_get_theme, get_theme, save_theme)
 from fumck.lumd.helpers.gets import (get_url, themes, random_assistant)
