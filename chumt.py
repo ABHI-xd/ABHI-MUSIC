@@ -5,7 +5,7 @@ import importlib
 from pyrogram import Client
 from fumck.config import API_ID, API_HASH, BOT_TOKEN, MONGO_DB_URI, SUDO_USERS, LOG_GROUP_ID
 from fumck import BOT_NAME, ASSNAME, app, client
-from fumck.lumd.DB.functions import clean_restart_stage
+from fumck.lumd.DB.funcs import clean_restart_stage
 from fumck.lumd.DB.queue import (get_active_chats, remove_active_chat)
 from fumck.lumd.tgcallsrun import run
 from pytgcalls import idle
