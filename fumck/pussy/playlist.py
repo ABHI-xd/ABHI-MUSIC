@@ -20,7 +20,7 @@ from fumck.lumd.DB.playlist import (get_playlist_count, _get_playlists, get_note
 from fumck.lumd.helpers.inline import play_keyboard, confirm_keyboard, play_list_keyboard, close_keyboard, confirm_group_keyboard
 from fumck.lumd.DB.theme import (_get_theme, get_theme, save_theme)
 from fumck.lumd.DB.assistant import (_get_assistant, get_assistant, save_assistant)
-from Music.config import DURATION_LIMIT, ASS_ID
+from fumck.config import DURATION_LIMIT, ASS_ID
 from fumck.lumd.helpers.decorators import errors
 from fumck.lumd.helpers.filters import command
 from fumck.lumd.helpers.gets import (get_url, themes, random_assistant)
