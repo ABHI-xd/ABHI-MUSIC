@@ -17,7 +17,7 @@ from fumck.lumd.helpers.inline import play_keyboard
 from fumck.lumd.DB.assistant import (_get_assistant, get_assistant, save_assistant)
 import os
 from os import path
-from Music import BOT_USERNAME
+from fumck import BOT_USERNAME
 import asyncio
 import yt_dlp
 from fumck.converter import converter
