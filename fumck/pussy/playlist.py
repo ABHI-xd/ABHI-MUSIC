@@ -6,7 +6,7 @@ import asyncio
 import shutil
 from time import time
 import yt_dlp
-from fumck import converter
+from fumck.hatersonlund import converter
 from pyrogram import Client
 from pyrogram.types import Message
 from pyrogram.types import Voice
