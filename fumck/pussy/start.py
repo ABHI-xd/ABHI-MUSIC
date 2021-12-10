@@ -15,8 +15,8 @@ from pyrogram.types import (
     Message,
 )
 from fumck.lumd.DB.chats import (get_served_chats, is_served_chat, add_served_chat, get_served_chats)
-from fumck.lumd.DB.database.queue import (is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
-from fumck.lumd.DB.database.sudo import (get_sudoers, get_sudoers, remove_sudo)
+from fumck.lumd.DB.queue import (is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
+from fumck.lumd.DB.sudo import (get_sudoers, get_sudoers, remove_sudo)
 
 def start_pannel():  
     buttons  = [
