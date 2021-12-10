@@ -23,7 +23,7 @@ import time as sedtime
 import asyncio
 import shutil
 from time import time
-from Music import converter
+from fumck import converter
 import aiohttp
 from aiohttp import ClientResponseError, ServerTimeoutError, TooManyRedirects
 from fumck import dbb, app, BOT_USERNAME, BOT_ID, ASSID, ASSNAME, ASSUSERNAME, ASSMENTION
