@@ -1,4 +1,4 @@
-from Music import app, SUDOERS
+from fumck import app, SUDOERS
 from pyrogram import filters, Client
 from pyrogram.types import Message
 from fumck.lumd.DB.onoff import (is_on_off, add_on, add_off)
