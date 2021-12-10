@@ -5,7 +5,7 @@ from sys import version as pyver
 import subprocess
 import shutil
 import os
-from fumck.lumd.DB.functions import start_restart_stage
+from fumck.lumd.DB.funcs import start_restart_stage
 from fumck.lumd.tgcallsrun import (music, convert, download, clear, get, is_empty, put, task_done)
 from fumck.lumd.DB.queue import get_active_chats
 from fumck.lumd.DB.queue import (get_active_chats, is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
