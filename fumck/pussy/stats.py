@@ -1,4 +1,4 @@
-from Music import app, SUDOERS, BOT_ID
+from fumck import app, SUDOERS, BOT_ID
 from pyrogram import filters, Client
 from sys import version as pyver
 from pyrogram import __version__ as pyrover
