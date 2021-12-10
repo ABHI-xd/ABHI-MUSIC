@@ -17,7 +17,7 @@ Client(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins={'root': 'fumck.Plugins'},
+    plugins={'root': 'fumck.pussy'},
 ).start()
 
 
