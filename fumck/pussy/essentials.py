@@ -32,7 +32,7 @@ from pyrogram.types import Message
 from fumck import app, SUDOERS, OWNER
 from fumck.lumd.helpers.filters import command
 from fumck.lumd.helpers.decorators import errors
-from fumck.lumd.DB.functions import start_restart_stage
+from fumck.lumd.DB.funcs import start_restart_stage
 
 @Client.on_message(command("update") & filters.user(OWNER))
 @errors
