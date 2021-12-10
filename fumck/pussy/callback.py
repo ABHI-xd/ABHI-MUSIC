@@ -32,9 +32,9 @@ from fumck.lumd.helpers.decorators import errors
 from fumck.lumd.helpers.filters import command, other_filters
 from fumck.lumd.helpers.paste import paste
 from fumck.lumd.tgcallsrun import (music, clear, get, is_empty, put, task_done)
-from fumck.lumd.database.queue import (is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
-from fumck.lumd.database.playlist import (get_playlist_count, _get_playlists, get_note_names, get_playlist, save_playlist, delete_playlist)
-from fumck.lumd.database.assistant import (_get_assistant, get_assistant, save_assistant)
+from fumck.lumd.DB.queue import (is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
+from fumck.lumd.DB.playlist import (get_playlist_count, _get_playlists, get_note_names, get_playlist, save_playlist, delete_playlist)
+from fumck.lumd.DB.assistant import (_get_assistant, get_assistant, save_assistant)
 from fumck.lumd.helpers.inline import (play_keyboard, search_markup, play_markup, playlist_markup, audio_markup)
 from fumck.lumd.helpers.inline import play_keyboard, confirm_keyboard, play_list_keyboard, close_keyboard, confirm_group_keyboard
 from fumck.lumd.tgcallsrun import (music, convert, download, clear, get, is_empty, put, task_done, smexy)
