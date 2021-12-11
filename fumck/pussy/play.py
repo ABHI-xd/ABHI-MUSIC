@@ -90,11 +90,7 @@ async def play(_, message: Message):
         "I don't have the required permission to perform this action."
         + "\n**Permission:** __INVITE USERS VIA LINK__")
         return
-    if not a.can_restrict_members:
-        await message.reply_text(
-        "I don't have the required permission to perform this action."
-        + "\n**Permission:** __BAN USERS__")
-        return
+    
     chid = message.chat.id
 
     try:
