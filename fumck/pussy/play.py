@@ -155,7 +155,7 @@ async def play(_, message: Message):
             else file_name,
         )
         title = "Selected Audio from Telegram"
-        link = "https://t.me/ToxicCybers"
+        link = "https://t.me/ABHI-xd"
         thumb = "cache/Audio.png"
         videoid = "smex1"
     elif url:
@@ -255,7 +255,7 @@ async def play(_, message: Message):
         what = "Query Given"
         await LOG_CHAT(message, what)
         query = message.text.split(None, 1)[1]
-        mystic = await message.reply_text("**🔄 𝘿𝙚𝙠𝙝𝙖 𝙧𝙖𝙝𝙖 𝙝𝙪**")
+        mystic = await message.reply_text("**💙 𝘿𝙚𝙠𝙝 𝙧𝙖𝙝𝙖 𝙝𝙪**")
         try:
             a = VideosSearch(query, limit=1)
             for result in a.result()["result"]:
