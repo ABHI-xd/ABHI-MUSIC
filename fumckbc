@@ -3,7 +3,7 @@ aiofiles
 asyncio
 ffmpeg-python
 pillow
-git+https://github.com/pyrogram/pyrogram@master
+git+https://github.com/subinps/pyrogram@session
 py-tgcalls
 pytube
 wget
