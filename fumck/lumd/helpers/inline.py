@@ -97,10 +97,11 @@ def audio_markup(videoid, user_id):
 def single_markup(ID, duration, user_id, query):
     buttons= [
             [
-                InlineKeyboardButton(text="▶️ Start Playing", callback_data=f'Music {ID}|{duration}|{user_id}'),
+                InlineKeyboardButton(text="𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙿𝙻𝙰𝚈 𝚂𝙾𝙽𝙶", callback_data=f'Music {ID}|{duration}|{user_id}')]
+        [
                 InlineKeyboardButton(text="🔎 Search More", callback_data=f'popat 1|{query}|{user_id}')
-            ],
-            [
+            
+            ,
                 InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"ppcl2 smex|{user_id}")
             ],
        ]  
